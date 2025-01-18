@@ -6,15 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Boxicons CSS -->
     <link rel="stylesheet" href="assets/css/boxicons.min.css">
     <!-- Magnific Popup CSS -->
-    <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
-    <!-- Owl Carousel -->
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
-    <!-- Nice Select CSS -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.min.css">\
+    \<!-- Nice Select CSS -->
     <link rel="stylesheet" href="assets/css/nice-select.min.css">
 
     <!-- Animate CSS -->
@@ -27,21 +24,23 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
 
     <title>Pento - Real Estate Mortgage Landing Page HTML Template</title>
 
-    <link rel="icon" type="image/png" href="assets/img/favicon.png">
+    <link rel="icon" type="image" href="assets/img/logo.png">
 </head>
 
 <body data-spy="scroll" data-offset="70">
     <!-- Preloader -->
-    <div class="loader">
+    <!-- <div class="loader">
         <div class="d-table">
             <div class="d-table-cell">
                 <div class="spinner"></div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- End Preloader -->
 
     <!-- Start Main Navbar Area -->
@@ -50,7 +49,7 @@
             <div class="container-fluid">
                 <div class="logo">
                     <a href="index-8.html">
-                        <img src="assets/img/logo-two.png" alt="image">
+                        <img src="assets/img/logo.png" alt="image">
                     </a>
                 </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -82,7 +81,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <a href="#contact" class="nav-link">
+                            <a href="#contact1" class="nav-link">
                                 Contact
                             </a>
                         </li>
@@ -92,13 +91,6 @@
                             </a>
                         </li>
                     </ul>
-
-                    <div class="others-option">
-                        <div class="option-item">
-                            <a href="#" class="sign-up">+91 987653210</a>
-                        </div>
-
-                    </div>
                 </div>
             </div>
         </nav>
@@ -111,27 +103,29 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
                     <div class="choice-home-content">
-                        <span class="sub-title">Reliable Sustainable Provider</span>
-                        <h1>Get Home From Your Choice</h1>
+                        <span class="sub-title fs-5">Welcome to the Modern Architecture </span>
+                        <h1>Sawasdee Heights</h1>
 
                         <ul class="choice-home-btn">
                             <li>
                                 <button id="open-popup" class="main-default-btn default-btn">Download Brochure</button>
-                                
+
                             </li>
-                           
+
                         </ul>
                     </div>
                 </div>
+                <!-- form 1 -->
                 <div class="col-lg-6 col-md-12">
                     <div class="main-banner-form-wrap">
+                        <span class="sub-title">Let’s Connect</span>
                         <h3>fill for Enquire</h3>
 
-                        <form>
+                        <form id="ajax-header-contact">
                             <div class="form-group">
                                 <label>Name</label>
 
-                                <input type="text" name="name" id="name" class="form-control" required
+                                <input type="text" name="name1" id="name" class="form-control" required
                                     data-error="Please enter your name" placeholder="your name">
                                 <div class="help-block with-errors"></div>
                             </div>
@@ -161,20 +155,11 @@
             </div>
         </div>
 
-        <ul class="choice-home-information">
-            <li>
-                <span>Call Us:</span> <a href="tel:4234543123678">+4 234-543 123 678</a>
-            </li>
-            <li>
-                <span>Mail Us:</span> <a href=""><span class="__cf_email__"
-                        >[email&#160;protected]</span></a>
-            </li>
-        </ul>
     </div>
     <!-- End Choice Home Area -->
 
     <!-- Start Information Area -->
-    <div class="information-area with-bg-black-color pt-100 pb-70">
+    <div class="information-area with-bg-black-color pt-100 pb-5">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-3 col-sm-6">
@@ -183,8 +168,8 @@
                             <i class='bx bx-time'></i>
                         </div>
                         <p>
-                            <span>Mon-Fri (8am - 6pm)</span>
-                            <span>Sat-Sun (10am - 2pm)</span>
+                            <span>Location</span>
+                            <span>Lawrence Road, Delhi</span>
                         </p>
                     </div>
                 </div>
@@ -195,11 +180,8 @@
                             <i class='bx bxs-contact'></i>
                         </div>
                         <p>
-                            <span>Contact us</span>
-                            <span><a
-                                    href=""><span
-                                        class="__cf_email__"
-                                        >[email&#160;protected]</span></a></span>
+                            <span> RERA Number</span>
+                            <span>DLRERA2023P0012.</span>
                         </p>
                     </div>
                 </div>
@@ -210,8 +192,8 @@
                             <i class='bx bx-phone-call'></i>
                         </div>
                         <p>
-                            <span>(24 hours / 7 days)</span>
-                            <span><a href="tel:4234543123678">+4 234-543 123 678</a></span>
+                            <span>Price</span>
+                            <span>starting at ₹4.31 cror</span>
                         </p>
                     </div>
                 </div>
@@ -222,8 +204,8 @@
                             <i class='bx bx-world'></i>
                         </div>
                         <p>
-                            <span>9675 Grant Ave.</span>
-                            <span>Chicago Heights, IL 60411</span>
+                            <span>Units</span>
+                            <span>3 BHK + CSP Apartments*</span>
                         </p>
                     </div>
                 </div>
@@ -238,12 +220,12 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
                     <div class="about-style-image">
-                        <img src="assets/img/more-home/about/about.jpg" alt="image">
+                        <img src="assets/img/b2.webp" alt="image">
 
                         <div class="quote-content">
-                            <p>“Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
-                                Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.”</p>
-                            <span>Brokly Simmons</span>
+                            <p>“Known for iconic projects like Galaxy Blue Sapphire Plaza and Galaxy Diamond Plaza with
+                                100% occupancy”</p>
+                            <span>Developed by Trusted Experts</span>
                         </div>
                     </div>
                 </div>
@@ -251,25 +233,26 @@
                     <div class="about-style-content">
                         <span class="sub-title">About Our Company</span>
                         <h3>Why Should You Choose Us?</h3>
-                        <p class="bold">Sed porttitor lectus nibh. Quisque velit nisi, pretium ut lacinia in, elementum
-                            id enim. Vivamus magna justo lacinia eget consectetur.</p>
-                        <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Praesent sapien massa, convallis
-                            a pellentesque nec, egestas non nisi. Curabitur non nulla sit amet nisl tempus convallis
-                            quis ac lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
-                            cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.
-                        </p>
+                        <p class="bold">Sawasdee Heights is a premium residential project strategically located near
+                            Punjabi Bagh and Pitampura, in the heart of Delhi. With seamless connectivity to major
+                            landmarks such as the Ring Road, Shakurpur Metro Station, and Netaji Subhash Place (NSP),
+                            this project ensures convenience for both families and professionals.</p>
+                        <p> The development comprises four iconic towers—Sapphire, Ruby, Emerald, and Diamond—offering
+                            spacious 3BHK apartments with premium interiors such as marble flooring, modular kitchens,
+                            and wooden floors in master bedrooms. Constructed using advanced Mivan Shuttering
+                            Technology, it promises durability, superior finishing, and sustainability.</p>
 
                         <div class="row justify-content-center">
                             <div class="col-lg-6 col-sm-6">
                                 <div class="counter-box">
                                     <h4>20+</h4>
-                                    <span>Years Of Experience</span>
+                                    <span>Amenities</span>
                                 </div>
                             </div>
                             <div class="col-lg-6 col-sm-6">
                                 <div class="counter-box">
-                                    <h4>90%</h4>
-                                    <span>Customer Worldwide</span>
+                                    <h4>15+</h4>
+                                    <span>years of experience</span>
                                 </div>
                             </div>
                         </div>
@@ -287,7 +270,7 @@
             <div class="row align-items-center justify-content-center">
                 <div class="col-lg-5 col-md-12">
                     <div class="buying-home-image">
-                        <img src="assets/img/more-home/buying-home/buying-home.jpg" alt="image">
+                        <img src="assets/img/image2.webp" alt="image">
 
                         <div class="counter-box">
                             <h4>56+</h4>
@@ -299,9 +282,9 @@
                 <div class="col-lg-7 col-md-12">
                     <div class="buying-home-content">
                         <span class="sub-title" style="font-size: 50px; margin-bottom: 0px;">Ameneties...</span>
-                        <h3>We Are Here To Help You</h3>
-                        <p>Sed porttitor lectus nibh quisque velit nisi pretium ut lacinia in elementum id enim. Mauris
-                            blandit aliquet elit eget tincidunt nibh pulvinar convallis at tellus.</p>
+                        <h4>Sawasdee Heights is more than a home – it’s a lifestyle upgrade.</h4>
+                        <!-- <p>Sed porttitor lectus nibh quisque velit nisi pretium ut lacinia in elementum id enim. Mauris
+                            blandit aliquet elit eget tincidunt nibh pulvinar convallis at tellus.</p> -->
 
                         <div class="row justify-content-center">
                             <div class="col-lg-6 col-sm-6">
@@ -309,8 +292,9 @@
                                     <div class="icon">
                                         <i class='bx bx-check'></i>
                                     </div>
-                                    <h4>Make it Your Dream</h4>
-                                    <p>When you own your own homet seeturlit sed dolor sit am</p>
+                                    <h4>Safe Podium Design:</h4>
+                                    <p>Vehicle-free podium areas ensure peace and safety for families.
+                                    </p>
                                 </div>
                             </div>
 
@@ -319,8 +303,9 @@
                                     <div class="icon">
                                         <i class='bx bx-check'></i>
                                     </div>
-                                    <h4>Create A Place</h4>
-                                    <p>You can grow in your new homeit amet seeturlit sed dolor sit</p>
+                                    <h4>Children's Play Area</h4>
+                                    <p>Enjoy swimming pools, a gymnasium and kids’ play area.
+                                    </p>
                                 </div>
                             </div>
 
@@ -329,8 +314,9 @@
                                     <div class="icon">
                                         <i class='bx bx-check'></i>
                                     </div>
-                                    <h4>Be A Part Of Community</h4>
-                                    <p>Buying a home is an investmemet seeturlit sed dolo ameol</p>
+                                    <h4>World-Class Amenities:</h4>
+                                    <p>Eco-friendly features like rainwater harvesting and energy-efficient systems.
+                                    </p>
                                 </div>
                             </div>
 
@@ -339,8 +325,9 @@
                                     <div class="icon">
                                         <i class='bx bx-check'></i>
                                     </div>
-                                    <h4>Pay Principal</h4>
-                                    <p>Gain home equity by paying sit amet seeturlit sed dolor sit</p>
+                                    <h4>Superior Build Quality</h4>
+                                    <p>Built using Mivan Shuttering Technology for better strength and durability.
+                                    </p>
                                 </div>
                             </div>
 
@@ -349,8 +336,8 @@
                                     <div class="icon">
                                         <i class='bx bx-check'></i>
                                     </div>
-                                    <h4>Get Tax Benefits</h4>
-                                    <p>Take advantage of tax benefitsit amet seeturlit sed dolor sit</p>
+                                    <h4>Premium interiors</h4>
+                                    <p>Premium interiors with marble flooring, modular kitchens</p>
                                 </div>
                             </div>
 
@@ -359,7 +346,7 @@
                                     <div class="icon">
                                         <i class='bx bx-check'></i>
                                     </div>
-                                    <h4>Build Credit</h4>
+                                    <h4>24x7 Security</h4>
                                     <p>Our plan dolor sit amet seeturlit sed dolor sit ameolor sit</p>
                                 </div>
                             </div>
@@ -383,33 +370,19 @@
                 <ul class="nav nav-tabs" id="myTab" role="tablist">
                     <li class="nav-item">
                         <a class="nav-link active" id="core-service-1-tab" data-bs-toggle="tab" href="#core-service-1"
-                            role="tab" aria-controls="core-service-1">Purchase New House</a>
+                            role="tab" aria-controls="core-service-1">Highlights</a>
                     </li>
 
                     <li class="nav-item">
                         <a class="nav-link" id="core-service-2-tab" data-bs-toggle="tab" href="#core-service-2"
-                            role="tab" aria-controls="core-service-2">Apply For Loan</a>
+                            role="tab" aria-controls="core-service-2">Key Benefits of Living Here</a>
                     </li>
 
                     <li class="nav-item">
                         <a class="nav-link" id="core-service-3-tab" data-bs-toggle="tab" href="#core-service-3"
-                            role="tab" aria-controls="core-service-3">Refinancing Your Home</a>
+                            role="tab" aria-controls="core-service-3">Towers and Apartments Designed for You</a>
                     </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link" id="core-service-4-tab" data-bs-toggle="tab" href="#core-service-4"
-                            role="tab" aria-controls="core-service-4">Capital Management</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" id="core-service-5-tab" data-bs-toggle="tab" href="#core-service-5"
-                            role="tab" aria-controls="core-service-5">Renovation</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" id="core-service-6-tab" data-bs-toggle="tab" href="#core-service-6"
-                            role="tab" aria-controls="core-service-6">Refinance Advisor</a>
-                    </li>
                 </ul>
 
                 <div class="tab-content" id="myTabContent">
@@ -420,21 +393,29 @@
                                     <div class="icon">
                                         <i class="bx bxs-building-house"></i>
                                     </div>
-                                    <h3>Purchase New House</h3>
-                                    <p>Nulla quis lorem ut libero malesuada feugiat. Quisque velit nisi pretium ut
-                                        lacinia in elementum id enim. Donec rutrum congue leo eget malesuada. Sed
-                                        porttitor lectus nibh. Proin eget tortor risus.</p>
+                                    <h3>Highlights</h3>
+                                    <p>In terms of accessibility, site is walking distance from the ring road and the
+                                        Shakurpur Metro station whilst the commercial hub of NSP is 1 km away..</p>
                                     <ul class="list">
-                                        <li><i class='bx bx-chevrons-right'></i> Respect for all people</li>
-                                        <li><i class='bx bx-chevrons-right'></i> Excellence in everything we do</li>
-                                        <li><i class='bx bx-chevrons-right'></i> Truthfulness in our business</li>
-                                        <li><i class='bx bx-chevrons-right'></i> Unquestionable integrity</li>
+                                        <li><i class='bx bx-chevrons-right'></i> Type - Residential</li>
+                                        <li><i class='bx bx-chevrons-right'></i> Status - Expected Possession: December
+                                            2025.
+                                        </li>
+                                        <li><i class='bx bx-chevrons-right'></i> Safe Podium Design:
+                                            Vehicle-free podium areas ensure peace and safety for families.</li>
+                                        <li><i class='bx bx-chevrons-right'></i>35-35-30 Plan: Pay 10% at booking, 25%
+                                            in 30 days, 35% at superstructure, and 30% at possession.</li>
+                                        <li><i class='bx bx-chevrons-right'></i>50-50 Plan: Pay 10% at booking, 40% in
+                                            30 days, and 50% at possession.
+                                        </li>
                                     </ul>
+
+
                                 </div>
                             </div>
                             <div class="col-lg-5 col-md-6">
                                 <div class="core-service-image">
-                                    <img src="assets/img/more-home/core-service/core-service-1.jpg" alt="image">
+                                    <img src="assets/img/b2.webp" alt="image">
                                 </div>
                             </div>
                         </div>
@@ -447,21 +428,26 @@
                                     <div class="icon">
                                         <i class="bx bxs-dollar-circle"></i>
                                     </div>
-                                    <h3>Apply For Loan</h3>
-                                    <p>Nulla quis lorem ut libero malesuada feugiat. Quisque velit nisi pretium ut
-                                        lacinia in elementum id enim. Donec rutrum congue leo eget malesuada. Sed
-                                        porttitor lectus nibh. Proin eget tortor risus.</p>
                                     <ul class="list">
-                                        <li><i class='bx bx-chevrons-right'></i> Respect for all people</li>
-                                        <li><i class='bx bx-chevrons-right'></i> Excellence in everything we do</li>
-                                        <li><i class='bx bx-chevrons-right'></i> Truthfulness in our business</li>
-                                        <li><i class='bx bx-chevrons-right'></i> Unquestionable integrity</li>
+                                        <h3>Residential and Commercial Blend:</h3>
+                                        <li><i class='bx bx-chevrons-right'></i> On-site commercial plaza for your
+                                            everyday needs.</li>
+                                        <li><i class='bx bx-chevrons-right'></i> Close proximity to NSP makes it perfect
+                                            for working professionals and families.</li>
+
+                                    </ul>
+                                    <ul class="list">
+                                        <h3>Investment Advantage:</h3>
+                                        <li><i class='bx bx-chevrons-right'></i>High rental potential due to its
+                                            location and amenities.</li>
+                                        <li><i class='bx bx-chevrons-right'></i> Competitive pricing starting at ₹19,000
+                                            per sq. ft.</li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="col-lg-5 col-md-6">
                                 <div class="core-service-image">
-                                    <img src="assets/img/more-home/core-service/core-service-2.jpg" alt="image">
+                                    <img src="assets/img/images1.jpg" alt="image">
                                 </div>
                             </div>
                         </div>
@@ -469,116 +455,104 @@
 
                     <div class="tab-pane fade" id="core-service-3" role="tabpanel">
                         <div class="row align-items-center justify-content-center">
-                            <div class="col-lg-7 col-md-6">
+                            <div class="col-lg-6 col-md-6">
                                 <div class="core-service-content">
-                                    <div class="icon">
-                                        <i class="bx bxs-home-circle"></i>
-                                    </div>
-                                    <h3>Refinancing Your Home</h3>
-                                    <p>Nulla quis lorem ut libero malesuada feugiat. Quisque velit nisi pretium ut
-                                        lacinia in elementum id enim. Donec rutrum congue leo eget malesuada. Sed
-                                        porttitor lectus nibh. Proin eget tortor risus.</p>
                                     <ul class="list">
-                                        <li><i class='bx bx-chevrons-right'></i> Respect for all people</li>
-                                        <li><i class='bx bx-chevrons-right'></i> Excellence in everything we do</li>
-                                        <li><i class='bx bx-chevrons-right'></i> Truthfulness in our business</li>
-                                        <li><i class='bx bx-chevrons-right'></i> Unquestionable integrity</li>
+                                        <h3>Sapphire Tower 4:</h3>
+                                        <li><i class='bx bx-chevrons-right'></i> Spacious 3BHK apartments with smart
+                                            layouts.
+                                        </li>
+                                        <li><i class='bx bx-chevrons-right'></i>Super Area: 2271 sq. ft. starting at
+                                            ₹4.31 crore, including large balconies and optimal private/shared spaces.
+                                        </li>
                                     </ul>
+                                    <ul class="list">
+                                        <h3>Ruby Tower 3:</h3>
+                                        <li><i class='bx bx-chevrons-right'></i> 3BHK + CSP (Super Area: 2458 sq. ft.)
+                                            starting at ₹4.67 crore
+                                        </li>
+                                        <li><i class='bx bx-chevrons-right'></i>3BHK + Study (Super Area: 2271 sq. ft.)
+                                            starting at ₹4.31 crore</li>
+                                    </ul>
+
                                 </div>
                             </div>
-                            <div class="col-lg-5 col-md-6">
-                                <div class="core-service-image">
-                                    <img src="assets/img/more-home/core-service/core-service-3.jpg" alt="image">
+                            <div class="col-lg-6 col-md-6 mt-5">
+                                <div class="core-service-content">
+                                    <ul class="list">
+                                        <h3>Emerald Tower 2:</h3>
+                                        <li><i class='bx bx-chevrons-right'></i>3BHK apartments with wide lobbies, open
+                                            spaces, and superior ventilation.</li>
+                                        <li><i class='bx bx-chevrons-right'></i>Super Area: 2271 sq. ft. starting at
+                                            ₹4.31 crore
+                                        </li>
+                                    </ul>
+                                    <ul class="list">
+                                        <h3>Diamond Tower 1</h3>
+                                        <li><i class='bx bx-chevrons-right'></i>Premium 3BHK + CSP units (Super Area:
+                                            2460 sq. ft.) starting at ₹4.67 crore
+                                        </li>
+                                        <li><i class='bx bx-chevrons-right'></i>Features a symmetrical layout with
+                                            spacious corridors and open balconies.
+
+                                        </li>
+                                    </ul>
+
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="tab-pane fade" id="core-service-4" role="tabpanel">
-                        <div class="row align-items-center justify-content-center">
-                            <div class="col-lg-7 col-md-6">
-                                <div class="core-service-content">
-                                    <div class="icon">
-                                        <i class="bx bxs-hand-up"></i>
-                                    </div>
-                                    <h3>Capital Management</h3>
-                                    <p>Nulla quis lorem ut libero malesuada feugiat. Quisque velit nisi pretium ut
-                                        lacinia in elementum id enim. Donec rutrum congue leo eget malesuada. Sed
-                                        porttitor lectus nibh. Proin eget tortor risus.</p>
-                                    <ul class="list">
-                                        <li><i class='bx bx-chevrons-right'></i> Respect for all people</li>
-                                        <li><i class='bx bx-chevrons-right'></i> Excellence in everything we do</li>
-                                        <li><i class='bx bx-chevrons-right'></i> Truthfulness in our business</li>
-                                        <li><i class='bx bx-chevrons-right'></i> Unquestionable integrity</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-lg-5 col-md-6">
-                                <div class="core-service-image">
-                                    <img src="assets/img/more-home/core-service/core-service-4.jpg" alt="image">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="tab-pane fade" id="core-service-5" role="tabpanel">
-                        <div class="row align-items-center justify-content-center">
-                            <div class="col-lg-7 col-md-6">
-                                <div class="core-service-content">
-                                    <div class="icon">
-                                        <i class="bx bxs-wrench"></i>
-                                    </div>
-                                    <h3>Renovation House</h3>
-                                    <p>Nulla quis lorem ut libero malesuada feugiat. Quisque velit nisi pretium ut
-                                        lacinia in elementum id enim. Donec rutrum congue leo eget malesuada. Sed
-                                        porttitor lectus nibh. Proin eget tortor risus.</p>
-                                    <ul class="list">
-                                        <li><i class='bx bx-chevrons-right'></i> Respect for all people</li>
-                                        <li><i class='bx bx-chevrons-right'></i> Excellence in everything we do</li>
-                                        <li><i class='bx bx-chevrons-right'></i> Truthfulness in our business</li>
-                                        <li><i class='bx bx-chevrons-right'></i> Unquestionable integrity</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-lg-5 col-md-6">
-                                <div class="core-service-image">
-                                    <img src="assets/img/more-home/core-service/core-service-5.jpg" alt="image">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="tab-pane fade" id="core-service-6" role="tabpanel">
-                        <div class="row align-items-center justify-content-center">
-                            <div class="col-lg-7 col-md-6">
-                                <div class="core-service-content">
-                                    <div class="icon">
-                                        <i class="bx bxs-user-circle"></i>
-                                    </div>
-                                    <h3>Refinance Advisor</h3>
-                                    <p>Nulla quis lorem ut libero malesuada feugiat. Quisque velit nisi pretium ut
-                                        lacinia in elementum id enim. Donec rutrum congue leo eget malesuada. Sed
-                                        porttitor lectus nibh. Proin eget tortor risus.</p>
-                                    <ul class="list">
-                                        <li><i class='bx bx-chevrons-right'></i> Respect for all people</li>
-                                        <li><i class='bx bx-chevrons-right'></i> Excellence in everything we do</li>
-                                        <li><i class='bx bx-chevrons-right'></i> Truthfulness in our business</li>
-                                        <li><i class='bx bx-chevrons-right'></i> Unquestionable integrity</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-lg-5 col-md-6">
-                                <div class="core-service-image">
-                                    <img src="assets/img/more-home/core-service/core-service-6.jpg" alt="image">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- End Core Service Area -->
+
+
+    <!-- price -->
+    <section class="three-loan-area pt-100 pb-70">
+        <div class="container">
+            <div class="one-section-title two-section-title">
+                <span class="sub-title">Pricing Details</span>
+            </div>
+
+            <div class="row shorting">
+                <div class="col-sm-12 col-lg-6 mix tyre mb-1">
+                    <div class="loan-item">
+                        <span>Floor-Wise Basic Price (Per Sq. Ft.)</span>
+                        <ul class="list">
+                            <li><i class='bx bx-chevrons-right'></i> Podium: ₹19,200
+                            </li>
+                            <li><i class='bx bx-chevrons-right'></i> 24th Floor: ₹19,180
+                            </li>
+                            <li><i class='bx bx-chevrons-right'></i> 14th to 10th Floor: ₹19,000</li>
+                            <li><i class='bx bx-chevrons-right'></i> 1st Floor: ₹19,180
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-6 mix web mt-1">
+                    <div class="loan-item">
+                        <span>Additional Charges:
+                        </span>
+                        <ul class="list">
+                            <li><i class='bx bx-chevrons-right'></i> Park Facing PLC: 5% of Basic Cost.
+                            </li>
+                            <li><i class='bx bx-chevrons-right'></i>3 KVA power backup: Free (additional: ₹25,000 per
+                                KVA).
+
+                            </li>
+                            <li><i class='bx bx-chevrons-right'></i> Covered Car Parking: ₹5,00,000 per slot.</li>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- End Loan -->
 
     <!-- Start Gallery -->
     <div class="why-choose-us-area pb-100">
@@ -588,146 +562,133 @@
                 <h2>Among Them We’re</h2>
             </div>
 
-            <div class="why-choose-us-slider owl-carousel owl-theme">
-                <div class="why-choose-us-card">
-                    <div class="choose-image">
-                        <img src="https://images.pexels.com/photos/2815056/pexels-photo-2815056.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                            alt="image">
+            <div class="why-choose-us-slider swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="why-choose-us-card swiper-slide">
+                        <div class="choose-image">
+                            <img src="assets/img/b2.webp"
+                                alt="image">
+                            <div class="overlay"></div>
+                        </div>
+
+                    </div>
+
+                    <div class="why-choose-us-card swiper-slide">
+                        <div class="choose-image">
+                            <img src="assets/img/b2.webp"
+                                alt="image">
+                            <div class="overlay"></div>
+                        </div>
+
+                    </div>
+
+                    <div class="why-choose-us-card swiper-slide">
+                        <div class="choose-image">
+                            <img src="assets/img/b2.webp"
+                                alt="image">
+                            <div class="overlay"></div>
+                        </div>
+
+                    </div>
+
+                    <div class="why-choose-us-card swiper-slide">
+                        <div class="choose-image">
+                            <img src="assets/img/b2.webp"
+                                alt="image">
+                        </div>
                         <div class="overlay"></div>
                     </div>
 
-                </div>
+                    <div class="why-choose-us-card swiper-slide">
+                        <div class="choose-image">
+                            <img src="assets/img/b2.webp"
+                                alt="image">
+                            <div class="overlay"></div>
+                        </div>
 
-                <div class="why-choose-us-card">
-                    <div class="choose-image">
-                        <img src="https://images.pexels.com/photos/2102587/pexels-photo-2102587.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                            alt="image">
-                        <div class="overlay"></div>
                     </div>
 
-                </div>
+                    <div class="why-choose-us-card swiper-slide">
+                        <div class="choose-image">
+                            <img src="assets/img/b2.webp"
+                                alt="image">
+                            <div class="overlay"></div>
+                        </div>
 
-                <div class="why-choose-us-card">
-                    <div class="choose-image">
-                        <img src="https://images.pexels.com/photos/27683986/pexels-photo-27683986/free-photo-of-a-house-with-a-garden-and-a-fence.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                            alt="image">
-                        <div class="overlay"></div>
                     </div>
 
-                </div>
+                    <div class="why-choose-us-card swiper-slide">
+                        <div class="choose-image">
+                            <img src="assets/img/b2.webp"
+                                alt="image">
+                            <div class="overlay"></div>
+                        </div>
 
-                <div class="why-choose-us-card">
-                    <div class="choose-image">
-                        <img src="https://images.pexels.com/photos/9426862/pexels-photo-9426862.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                            alt="image">
-                    </div>
-                    <div class="overlay"></div>
-                </div>
-
-                <div class="why-choose-us-card">
-                    <div class="choose-image">
-                        <img src="https://images.pexels.com/photos/9538587/pexels-photo-9538587.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                            alt="image">
-                        <div class="overlay"></div>
                     </div>
 
-                </div>
+                    <div class="why-choose-us-card swiper-slide">
+                        <div class="choose-image">
+                            <img src="assets/img/b2.webp"
+                                alt="image">
+                            <div class="overlay"></div>
+                        </div>
 
-                <div class="why-choose-us-card">
-                    <div class="choose-image">
-                        <img src="https://images.pexels.com/photos/10006311/pexels-photo-10006311.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                            alt="image">
-                        <div class="overlay"></div>
                     </div>
 
-                </div>
+                    <div class="why-choose-us-card swiper-slide">
+                        <div class="choose-image">
+                            <img src="assets/img/b2.webp"
+                                alt="image">
+                            <div class="overlay"></div>
+                        </div>
 
-                <div class="why-choose-us-card">
-                    <div class="choose-image">
-                        <img src="https://images.pexels.com/photos/12375022/pexels-photo-12375022.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                            alt="image">
-                        <div class="overlay"></div>
                     </div>
-
-                </div>
-
-                <div class="why-choose-us-card">
-                    <div class="choose-image">
-                        <img src="https://images.pexels.com/photos/30004040/pexels-photo-30004040/free-photo-of-colorful-row-houses-in-london-street-view.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                            alt="image">
-                        <div class="overlay"></div>
-                    </div>
-
-                </div>
-
-                <div class="why-choose-us-card">
-                    <div class="choose-image">
-                        <img src="https://images.pexels.com/photos/29219854/pexels-photo-29219854/free-photo-of-charming-espresso-bar-in-historic-london-street.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                            alt="image">
-                        <div class="overlay"></div>
-                    </div>
-
                 </div>
             </div>
         </div>
     </div>
     <!-- End Why Choose Us Area -->
 
-    <!-- Start Let’s Contact Area -->
+
+
+    <!-- Start Location -->
     <div id="contact" class="let-contact-area">
         <div class="container-fluid">
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
-                    <div class="let-contact-form">
-                        <span class="sub-title">Let’s Contact</span>
-                        <h3>Contact With Us</h3>
-
-                        <form id="contactForm">
-                            <div class="row m-0">
-                                <div class="col-sm-6 col-lg-6">
-                                    <div class="form-group">
-                                        <label>Name</label>
-                                        <input type="text" name="name" id="name" class="form-control" required
-                                            data-error="Please enter your name" placeholder="William">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-
-                                <div class="col-sm-6 col-lg-6">
-                                    <div class="form-group">
-                                        <label>Phone Number</label>
-                                        <input type="text" name="phone" id="phone" required
-                                            data-error="Please enter your number" class="form-control"
-                                            placeholder="your number">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-
-                                <div class="col-sm-12 col-lg-12">
-                                    <div class="form-group">
-                                        <label>City</label>
-                                        <input type="text" name="City" id="City" class="form-control" required
-                                            data-error="Please enter your City" placeholder="your City">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-12 col-lg-12">
-                                    <div class="let-contact-btn">
-                                        <button type="submit" class="main-default-btn">Send Message</button>
-                                        <div id="msgSubmit" class="h3 text-center hidden"></div>
-                                        <div class="clearfix"></div>
-                                    </div>
-                                </div>
+                    <div class="let-contact-form location">
+                        <div class="core-service-content">
+                            <div class="icon" style="color: #00C195;">
+                                <i class="bx bxs-dollar-circle"></i>
                             </div>
-                        </form>
+                            <h3 class="sub-title">Location Advantages</h3>
+                            <p class="location-para">Sawasdee 18 is a high-street market launched by Galaxy Group.
+                                Sawasdee 18 is
+                                centrally and strategically located in sector 18, Rohini, which is the busiest
+                                community center in the area.</p>
+                            <ul class="list ">
+                                <li><i class='bx bx-chevrons-right '></i>Located near Punjabi Bagh and Pitampura, in the
+                                    heart of Delhi.</li>
+                                <li><i class='bx bx-chevrons-right'></i> Walking distance to Ring Road and Shakurpur
+                                    Metro Station.
+                                </li>
+                                <li><i class='bx bx-chevrons-right'></i> Just 1 km from Netaji Subhash Place (NSP), a
+                                    major commercial hub.</li>
+                                <li><i class='bx bx-chevrons-right'></i> Easy access to Britannia Road, Lawrence Road,
+                                    and other key areas</li>
+                                <li><i class='bx bx-chevrons-right'></i>Metro Station &nbsp;&nbsp; - &nbsp;&nbsp; 0.8 Km
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
 
                 <div class="col-lg-6 col-md-10 pl-5">
                     <div class="let-contact-map">
-                        <iframe style="height: 500px;"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96873.54747595973!2d-74.01503723537454!3d40.64535309481121!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24416947c2109%3A0x82765c7404007886!2sBrooklyn%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1644602327980!5m2!1sen!2sbd"></iframe>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3498.3335377337667!2d77.13088187511899!3d28.739457025324075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d01883006ebfd%3A0x70a17038bd6788c6!2sSAWASDEE18!5e0!3m2!1sen!2sin!4v1737186833117!5m2!1sen!2sin"
+                            allowfullscreen="" loading="lazy" style="height: 80vh; width: 100vw;"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
@@ -749,15 +710,16 @@
                                 <div class="accordion-item">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        How Do You Qualify For A Loan?
+                                        What makes Sawasdee Heights an ideal location?
                                     </button>
                                     <div id="collapseOne" class="accordion-collapse collapse show"
                                         data-bs-parent="#FaqAccordion">
                                         <div class="accordion-body">
-                                            <p>Donec sollicitudin molestie malesuada. Vivamus magna justo lacinia eget
-                                                consectetur sed convallis at tellus. Quisque velit nisi, pretium ut
-                                                lacinia in elementum id enim. Quisque velit nisi pretium ut lacinia in
-                                                elementum id enim.</p>
+                                            <p>Sawasdee Heights is strategically located near Punjabi Bagh and Pitampura
+                                                in the heart of Delhi. It is within walking distance of the Ring Road
+                                                and Shakurpur Metro Station, and just 1 km from Netaji Subhash Place
+                                                (NSP), a major commercial hub. The project also offers easy access to
+                                                Britannia Road, Lawrence Road, and other key areas.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -765,15 +727,17 @@
                                 <div class="accordion-item">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        A Good Lender Will Clearly Explain Mortgage?
+                                        What amenities does Sawasdee Heights offer?
                                     </button>
                                     <div id="collapseTwo" class="accordion-collapse collapse"
                                         data-bs-parent="#FaqAccordion">
                                         <div class="accordion-body">
-                                            <p>Donec sollicitudin molestie malesuada. Vivamus magna justo lacinia eget
-                                                consectetur sed convallis at tellus. Quisque velit nisi, pretium ut
-                                                lacinia in elementum id enim. Quisque velit nisi pretium ut lacinia in
-                                                elementum id enim.</p>
+                                            <p>The project features a range of world-class amenities, including swimming
+                                                pools, a gymnasium, a kids’ play area, a luxurious clubhouse, and
+                                                eco-friendly systems like rainwater harvesting and energy-efficient
+                                                technologies. Vehicle-free podium areas provide safe and peaceful spaces
+                                                for relaxation and leisure.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -782,15 +746,17 @@
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseThree" aria-expanded="false"
                                         aria-controls="collapseThree">
-                                        Can You Get A Mortgage Without A Credit Score?
+                                        What types of apartments are available at Sawasdee Heights?
                                     </button>
                                     <div id="collapseThree" class="accordion-collapse collapse"
                                         data-bs-parent="#FaqAccordion">
                                         <div class="accordion-body">
-                                            <p>Donec sollicitudin molestie malesuada. Vivamus magna justo lacinia eget
-                                                consectetur sed convallis at tellus. Quisque velit nisi, pretium ut
-                                                lacinia in elementum id enim. Quisque velit nisi pretium ut lacinia in
-                                                elementum id enim.</p>
+                                            <p>Sawasdee Heights offers premium 3BHK apartments across four iconic
+                                                towers: Sapphire, Ruby, Emerald, and Diamond. The apartments range in
+                                                size from 2271 sq. ft. to 2460 sq. ft., with configurations that include
+                                                smart layouts, spacious balconies, centralized lobbies, and premium
+                                                interiors like marble flooring, modular kitchens, and wooden floors in
+                                                master bedrooms.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -799,15 +765,16 @@
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseFour" aria-expanded="false"
                                         aria-controls="collapseFour">
-                                        How Much Home Can You Afford?
+                                        What is the expected possession timeline and pricing structure?
                                     </button>
                                     <div id="collapseFour" class="accordion-collapse collapse"
                                         data-bs-parent="#FaqAccordion">
                                         <div class="accordion-body">
-                                            <p>Donec sollicitudin molestie malesuada. Vivamus magna justo lacinia eget
-                                                consectetur sed convallis at tellus. Quisque velit nisi, pretium ut
-                                                lacinia in elementum id enim. Quisque velit nisi pretium ut lacinia in
-                                                elementum id enim.</p>
+                                            <p>Sawasdee Heights is a RERA-registered project (DLRERA2023P0012) with an
+                                                expected possession date of December 2025. Pricing starts at ₹19,000 per
+                                                sq. ft., with flexible payment plans such as the 35-35-30 and 50-50
+                                                options. Additional charges include ₹5,00,000 per covered parking slot
+                                                and optional power backup at ₹25,000 per KVA.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -818,7 +785,7 @@
 
                 <div class="col-lg-6 col-md-12">
                     <div class="need-help-faq-image">
-                        <img src="assets/img/more-home/need-help-faq.jpg" alt="image">
+                        <img src="assets/img/image2.webp" alt="image">
 
                         <div class="help-box">
                             <h3>Find</h3>
@@ -839,31 +806,21 @@
                     <div class="single-footer-widget">
                         <div class="footer-logo">
                             <a href="#">
-                                <img src="assets/img/logo-two.png" alt="Logo">
+                                <img src="assets/img/logo.png" alt="Logo">
                             </a>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt
-                                ut labore et dolore.</p>
+                            <p>Whether you’re looking for a dream home or a smart investment, this project is perfect
+                                for you.</p>
 
                         </div>
                     </div>
-                </div>
-
-
-              
-
-                <div class="col-sm-6 col-lg-6">
-                    <div class="single-footer-widget">
+                    <div class="single-footer-widget m-auto">
                         <h3>Address</h3>
 
                         <ul class="address-info">
                             <li>
-                                <i class='bx bx-phone-call'></i>
-                                <a href="tel:+4498886660000">+449 888 666 0000</a>
-                            </li>
-
-                            <li>
                                 <i class='bx bx-current-location'></i>
-                                855 road, broklyn street new york 600
+                                Office Tower, 19th Floor, Galaxy Blue Sapphire Plaza, <br> C-03 Sector -4, Greater Noida
+                                West, <br> Uttar Pradesh 201309
                             </li>
                             <li>
                                 <a href="#" target="_blank">Privacy Policy</a>
@@ -871,14 +828,68 @@
                         </ul>
                     </div>
                 </div>
+
+
+
+
+                <div class="col-sm-6 col-lg-6" id="contact1">
+
+                    <div class="let-contact-form">
+                        <span class="sub-title">Let’s Connect</span>
+                        <p class="ms-2">Book your home now and secure your future in one of Delhi’s finest residential
+                            projects!
+                        </p>
+                        <div id="contactForm">
+                            <form id="ajax-header-contact-2">
+                                <div class="row m-0">
+                                    <div class="col-sm-6 col-lg-6">
+                                        <div class="form-group">
+                                            <label>Name</label>
+                                            <input type="text" name="name1" id="name" class="form-control" required
+                                                data-error="Please enter your name" placeholder="William">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-6 col-lg-6">
+                                        <div class="form-group">
+                                            <label>Phone Number</label>
+                                            <input type="text" name="phone" id="phone" required
+                                                data-error="Please enter your number" class="form-control"
+                                                placeholder="your number">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-12 col-lg-12">
+                                        <div class="form-group">
+                                            <label>City</label>
+                                            <input type="text" name="City" id="City" class="form-control" required
+                                                data-error="Please enter your City" placeholder="your City">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12 col-lg-12">
+                                        <div class="let-contact-btn">
+                                            <button type="submit" class="main-default-btn">Submit</button>
+                                            <div id="msgSubmit" class="h3 text-center hidden"></div>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div class="copyright-style-area">
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-6">
-                        <div class="copyright-item">
+                        <!-- <div class="copyright-item">
                             <p>© Pento is Proudly Owned by <a href="#" target="_blank">HiBootstrap</a></p>
-                        </div>
+                        </div> -->
                     </div>
 
                 </div>
@@ -886,27 +897,34 @@
         </div>
     </footer>
 
-    <!-- pop up -->  
-    <div class="modal fade align-content-center" id="popupModal" tabindex="-1" aria-labelledby="popupModalLabel" aria-hidden="true">
+    <!-- pop up -->
+    <div class="modal fade align-content-center" id="popupModal" tabindex="-1" aria-labelledby="popupModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content main-banner-form-wrap" style="padding: 26px 34px;">
                 <div class="modal-header">
                     <h5 class="modal-title textcolor" id="popupModalLabel">Fill for Enquire</h5>
-                    <button type="button" class="btn-close text-bg-info" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <button type="button" class="btn-close text-bg-info" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <form>
+                    <p>Book your home now and secure your future in one of Delhi’s finest residential projects!
+                    </p>
+                    <form id="ajax-header-contact-3">
                         <div class="mb-3 form-group">
                             <label for="name" class="form-label">Name</label>
-                            <input type="text" class="form-control" id="name" name="name" placeholder="Your name" required>
+                            <input type="text" class="form-control" id="name" name="name1" placeholder="Your name"
+                                required>
                         </div>
                         <div class="mb-3 form-group">
                             <label for="phone" class="form-label">Phone No</label>
-                            <input type="tel" class="form-control" id="phone" name="phone" placeholder="Your number" required>
+                            <input type="tel" class="form-control" id="phone" name="phone" placeholder="Your number"
+                                required>
                         </div>
                         <div class="mb-3 form-group">
                             <label for="city" class="form-label">City</label>
-                            <input type="text" class="form-control" id="city" name="city" placeholder="Your city" required>
+                            <input type="text" class="form-control" id="city" name="City" placeholder="Your city"
+                                required>
                         </div>
                         <button type="submit" class="btn">Submit</button>
                     </form>
@@ -914,39 +932,60 @@
             </div>
         </div>
 
-    <!-- End Footer Style Area -->
+        <!-- End Footer Style Area -->
 
 
 
-    <!-- Essential JS -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <!-- Magnific Popup JS -->
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <!-- Owl Carousel JS -->
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <!-- Nice Select JS -->
-    <script src="assets/js/jquery.nice-select.min.js"></script>
-    <!-- Form Ajaxchimp JS -->
-    <script src="assets/js/jquery.ajaxchimp.min.js"></script>
-    <!-- Form Validator JS -->
-    <script src="assets/js/form-validator.min.js"></script>
-    <!-- Contact JS -->
-    <script src="assets/js/contact-form-script.js"></script>
-    <!-- Mixitup JS -->
-    <script src="assets/js/jquery.mixitup.min.js"></script>
-    <!-- Custom JS -->
-    <script src="assets/js/custom.js"></script>
+        <!-- Essential JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <!-- Magnific Popup JS -->
+        <script src="assets/js/jquery.magnific-popup.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Owl Carousel JS -->\
+        <!-- Nice Select JS -->
+        <script src="assets/js/jquery.nice-select.min.js"></script>
+        <!-- Form Ajaxchimp JS -->
+        <script src="assets/js/jquery.ajaxchimp.min.js"></script>
+        <!-- Mixitup JS -->
+        <script src="assets/js/jquery.mixitup.min.js"></script>
+        <!-- Custom JS -->
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-    <script>
-        // JavaScript to trigger modal display
-        const popupModal = new bootstrap.Modal(document.getElementById('popupModal'));
-        const openPopup = document.getElementById('open-popup');
+        <script src="assets/js/custom.js"></script>
+        <script src="assets/js/app.js"></script>
 
-        openPopup.addEventListener('click', () => {
-            popupModal.show();
-        });
-    </script>
+        <script>
+            // JavaScript to trigger modal display
+            const popupModal = new bootstrap.Modal(document.getElementById('popupModal'));
+            const openPopup = document.getElementById('open-popup');
+
+            openPopup.addEventListener('click', () => {
+                popupModal.show();
+            });
+        </script>
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+                slidesPerView: 1,
+                loop: true,
+                spaceBetween: 30,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+                breakpoints: {
+                  
+                    768: {
+                        slidesPerView: 2,
+                        spaceBetween: 40,
+                    },
+                    1024: {
+                        slidesPerView: 4,
+                        spaceBetween: 50,
+                    },
+                }
+            });
+        </script>
 </body>
 
 </html>
