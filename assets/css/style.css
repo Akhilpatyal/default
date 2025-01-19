@@ -490,7 +490,7 @@ button:focus {
 .one-banner-area .banner-text .banner-form form .banner-call:hover {
   background-color: #12ca59;
 }
-
+/* 
 .one-banner-area .banner-slider .banner-img-one {
   background-image: url("../img/home-one/banner-main1.jpg");
 }
@@ -501,7 +501,7 @@ button:focus {
 
 .one-banner-area .banner-slider .banner-img-three {
   background-image: url("../img/home-one/banner-main3.jpg");
-}
+} */
 
 .one-banner-area .banner-slider .banner-inner {
   height: 900px;
@@ -8578,6 +8578,7 @@ New Demo CSS
 .core-service-list-tab .core-service-image {
   overflow: hidden;
   border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .core-service-list-tab .core-service-image img {
@@ -12563,17 +12564,25 @@ New Demo CSS
 
 /*-----  Choice Home Area CSS -----*/
 .choice-home-area {
-  background-image: url(../img/Sawasdee-Heights-Banner.png);
-  background-position: center center;
+  background-image: url(../img/Sawasdee-Heights-Banner-min.png);
+  background-position: center;
   background-size: cover;
+  object-fit: cover;
   background-repeat: no-repeat;
   overflow: hidden;
-  padding-top: 100px;
+  padding-top: 130px;
   padding-bottom: 100px;
   position: relative;
   z-index: 1;
-  animation: animate 25s linear infinite 0s;
+  /* animation: animate 25s linear infinite 0s; */
 }
+.choice-home-content p {
+  font-size: 25px;
+  font-weight: 500;
+  color: whitesmoke;
+  border-bottom: 1px solid #00C194;
+}
+
 
 @keyframes animate {
   0% {
@@ -13639,4 +13648,7 @@ Sidebar Eaxmple Demo CSS
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+.modal-header button{
+  background-color: whitesmoke;
 }

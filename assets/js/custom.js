@@ -39,47 +39,47 @@ jQuery(function ($) {
     } catch (err) {}
 
 	// Banner Slider 
-	$('.banner-slider').owlCarousel({
-		items: 1,
-		loop: true,
-		margin: 15,
-		singleItem: true,
-		nav: true,
-		dots: false,
-		smartSpeed: 1000,
-		autoplay: true,
-		autoplayTimeout: 4000,
-		autoplayHoverPause: true,
-		navText: [
-            "<i class='bx bx-left-arrow-alt'></i>",
-            "<i class='bx bx-right-arrow-alt'></i>"
-        ],
-    });
+	// $('.banner-slider').owlCarousel({
+	// 	items: 1,
+	// 	loop: true,
+	// 	margin: 15,
+	// 	singleItem: true,
+	// 	nav: true,
+	// 	dots: false,
+	// 	smartSpeed: 1000,
+	// 	autoplay: true,
+	// 	autoplayTimeout: 4000,
+	// 	autoplayHoverPause: true,
+	// 	navText: [
+    //         "<i class='bx bx-left-arrow-alt'></i>",
+    //         "<i class='bx bx-right-arrow-alt'></i>"
+    //     ],
+    // });
 
 	// Among Slider 
-	$('.among-slider').owlCarousel({
-		items: 3,
-		loop: true,
-		margin: 0,
-		nav: false,
-		dots: true,
-		smartSpeed: 1000,
-		autoplay: true,
-		autoplayTimeout: 4000,
-		autoplayHoverPause: true,
-		center: true,
-		responsive:{
-			0:{
-				items:1,
-			},
-			600:{
-				items:2,
-			},
-			1000:{
-				items:3,
-			}
-		}
-	});
+	// $('.among-slider').owlCarousel({
+	// 	items: 3,
+	// 	loop: true,
+	// 	margin: 0,
+	// 	nav: false,
+	// 	dots: true,
+	// 	smartSpeed: 1000,
+	// 	autoplay: true,
+	// 	autoplayTimeout: 4000,
+	// 	autoplayHoverPause: true,
+	// 	center: true,
+	// 	responsive:{
+	// 		0:{
+	// 			items:1,
+	// 		},
+	// 		600:{
+	// 			items:2,
+	// 		},
+	// 		1000:{
+	// 			items:3,
+	// 		}
+	// 	}
+	// });
 
 	// Popup Youtube 
 	$('.popup-youtube').magnificPopup({
@@ -373,39 +373,39 @@ jQuery(function ($) {
 	});
 
 	// Testimonials Style Slider 
-	$('.testimonials-style-slider').owlCarousel({
-		loop: true,
-		margin: 25,
-		nav: false,
-		dots: true,
-		items: 1,
-	});
+	// $('.testimonials-style-slider').owlCarousel({
+	// 	loop: true,
+	// 	margin: 25,
+	// 	nav: false,
+	// 	dots: true,
+	// 	items: 1,
+	// });
 
 	// Offer Style Slider 
-	$('.offer-style-slider').owlCarousel({
-		loop: true,
-		margin: 25,
-		nav: false,
-		dots: true,
+	// $('.offer-style-slider').owlCarousel({
+	// 	loop: true,
+	// 	margin: 25,
+	// 	nav: false,
+	// 	dots: true,
 
-		responsive:{
-			0:{
-				items: 1,
-			},
-			576:{
-				items: 1,
-			},
-			768:{
-				items: 2,
-			},
-			1024:{
-				items: 3,
-			},
-			1200:{
-				items: 3,
-			}
-		}
-	});
+	// 	responsive:{
+	// 		0:{
+	// 			items: 1,
+	// 		},
+	// 		576:{
+	// 			items: 1,
+	// 		},
+	// 		768:{
+	// 			items: 2,
+	// 		},
+	// 		1024:{
+	// 			items: 3,
+	// 		},
+	// 		1200:{
+	// 			items: 3,
+	// 		}
+	// 	}
+	// });
 
 	// Beyond Slider JS
 	$(document).ready(function() {
